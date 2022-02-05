@@ -2,3 +2,4 @@
 1> npx create-react-app jpvtracks
 2> Installed VS code extension "Prettier - code formatter"
 3> Added bootstrap as CDN option into public\index.html
+4> git config pull.rebase false
