@@ -17,30 +17,32 @@ class Reports extends React.Component {
     }
 
     render() {
-        <>
-        <div className="col-lg-12 text-center">
-            <h1><u>Data</u></h1>
-        </div>
-
-        <div className="col-lg-12 text-center">
-            <CsvToHtmlTable
-            data={this.convertJsonToCsv()}
-            csvDelimiter=","
-            tableClassName="table table-striped table-hover"
-            />
-        </div>
-
-        <div>
-            <CsvDownload
-            filename="myfile"
-            extension=".csv"
-            seperator=";"
-            datas={this.props.studentInfoData}
-            text="DOWNLOAD"
-            />
-        </div>
-
-        </>
+        return (
+            <>
+            <div className="col-lg-12 text-center">
+                <h1><u>Data</u></h1>
+            </div>
+    
+            <div className="col-lg-12 text-center">
+                <CsvToHtmlTable
+                data={this.convertJsonToCsv()}
+                csvDelimiter=","
+                tableClassName="table table-striped table-hover"
+                />
+            </div>
+    
+            <div>
+                <CsvDownload className="col-lg-12 text-center"
+                filename="myfile"
+                extension=".csv"
+                seperator=";"
+                datas={this.props.studentInfoData}
+                text="DOWNLOAD"
+                />
+            </div>
+    
+            </>
+        );
     }
 }
 

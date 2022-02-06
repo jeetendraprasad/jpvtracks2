@@ -6,7 +6,7 @@ import studentInfo from './AppData/StudentsInfo.json';
 
 function App() {
   return (
-    <Reports studentInfoData={studentInfo}>
+    <Reports studentInfoData={studentInfo}/>
   );
 }
 
