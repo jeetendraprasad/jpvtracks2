@@ -3,3 +3,7 @@
 2> Installed VS code extension "Prettier - code formatter"
 3> Added bootstrap as CDN option into public\index.html
 4> git config pull.rebase false
+5> Added dependencies
+   npm i json2csv
+   npm i react-csv-downloader
+   npm install react-csv-to-table@0.0.1
