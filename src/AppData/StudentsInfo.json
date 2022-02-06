@@ -1,0 +1,23 @@
+[
+    {
+        "Id": 1,
+        "FirstName": "Arun",
+        "LastName": "Nair",
+        "SchoolId": 1000,
+        "ClassId": 1
+    },
+    {
+        "Id": 2,
+        "FirstName": "Banti",
+        "LastName": "Bhatti",
+        "SchoolId": 1000,
+        "ClassId": 2
+    },
+    {
+        "Id": 3,
+        "FirstName": "Chetan",
+        "LastName": "Chauhan",
+        "SchoolId": 1000,
+        "ClassId": 3
+    }
+]
