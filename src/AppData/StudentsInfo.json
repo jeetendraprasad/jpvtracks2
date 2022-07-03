@@ -40,5 +40,12 @@
         "LastName": "Chauhan6",
         "SchoolId": 1000,
         "ClassId": 4
+    },
+    {
+        "Id": 7,
+        "FirstName": "Chetan7",
+        "LastName": "Chauhan7",
+        "SchoolId": 1000,
+        "ClassId": 4
     }
 ]
